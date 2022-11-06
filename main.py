@@ -77,8 +77,6 @@ def choice_char_class() -> str:
                                'чтобы выбрать другого персонажа ').lower()
     return char_class
 
-
-def main() -> str:
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name: str = input('...назови себя: ')
@@ -89,5 +87,3 @@ def main() -> str:
     char_class: str = choice_char_class()
     print(start_training(char_name, char_class))
 
-
-main()
